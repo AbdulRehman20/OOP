@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+class abdulrehman{
+	private:
+	
+		string name;
+	
+		public:
+			setName(string a){
+					name=a;
+			}
+	
+			getName(){
+				cout<<name;
+			}
+};
+int main(){
+	abdulrehman ar;
+ar.setName("this is how get and set function works !");
+ar.getName();
+}
